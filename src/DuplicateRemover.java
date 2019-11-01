@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class DuplicateRemover{
     ArrayList<String> uniqueWords = new ArrayList<String>();
 
-    public void duplicateRemover(String dataFile) throws IOException{
+    public void remove(String dataFile) throws IOException{
         BufferedReader buff = new BufferedReader(new FileReader(dataFile));
         String line = buff.readLine();
 
