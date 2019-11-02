@@ -5,7 +5,7 @@ import java.util.Map;
 public class DuplicateCounter{
     Map<String, Integer> wordCounter = new HashMap<String, Integer>();
 
-    public void count(String dataFile) throws IOException{
+    public void duplicateCounter(String dataFile) throws IOException{
         BufferedReader buff = new BufferedReader(new FileReader(dataFile));
         String line = buff.readLine();
 
